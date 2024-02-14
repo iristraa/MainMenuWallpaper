@@ -2,6 +2,7 @@
 
  * Fixed mod incompatibility with Hide Main Menu UI
  * Added Changelogs
+ * Replaced wallpaper with placeholder
 
 # v1.0.0
 
