@@ -1,7 +1,7 @@
 {
 	"geode": "2.0.0-beta.17",
 	"gd": "2.204",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"id": "iristraa.mainmenuwallpaper",
 	"name": "MainMenuWallpaper",
 	"developer": "iristraa",
@@ -11,6 +11,13 @@
 			"resources/wallpaper.png"
 		]
 	},
+	"dependencies": [
+		{
+			"id": "geode.texture-loader",
+			"version": ">=v1.5.0",
+			"importance": "recommended"
+		}
+	],
 	"settings": {
 		"wallpaper-fit-type": {
 			"name": "Wallpaper fit type",

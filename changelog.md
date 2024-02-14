@@ -1,3 +1,9 @@
+# v1.0.3
+
+ * Fixed typos in Markdown files
+ * Adds Textureldr as optional dependency
+ * Minor tweaks
+
 # v1.0.2
 
  * Removed dependency for Node IDs

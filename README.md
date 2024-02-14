@@ -2,7 +2,8 @@
 
 Allows you to set your own wallpaper on MenuLayer.
 
-Wallpaper images are stored at "[GD Installation folder]/geode/unzipped/iristraa.mainmenuwallpaper/resources/iristraa.mainmenuwallpaper".
+Wallpaper image is stored at "iristraa.mainmenuwallpaper" in texture packs,...
+or "[GD Installation folder]/geode/unzipped/iristraa.mainmenuwallpaper/resources/iristraa.mainmenuwallpaper".
 
 ### TODO:
  - Android support
@@ -17,13 +18,13 @@ Wallpaper images are stored at "[GD Installation folder]/geode/unzipped/iristraa
 
 ## How to set your own wallpaper
 
-### 1. Textureldr installed
+### 1. Textureldr installed (HIGHLY RECOMMENDED WAY)
 
- - Make a folder called "iristraa.mainmenuwallpaper" inside of one of your enabled texture packs
- - Add your own "wallpaper.png" file; any other names wouldn't work
+ - Make a folder called "iristraa.mainmenuwallpaper" inside one of your enabled texture packs
+ - Add your own "wallpaper.png" file - corresponding to your texture quality
  - Done :)
 
 ### 2. No Textureldr
  - Go to "[GD Installation folder]/geode/unzipped/iristraa.mainmenuwallpaper/resources/iristraa.mainmenuwallpaper"
- - Replace the "wallpaper.png" file corresponding to your texture quality.
+ - Replace the "wallpaper.png" file corresponding to your texture quality
  - Done :)
