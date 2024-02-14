@@ -22,8 +22,6 @@ class $modify(MenuLayer) {
             wallpaperSprite->setPosition({ winSize.width / 2, winSize.height / 2 }); 
             wallpaperSprite->setScaleX(std::max(winSize.height / wallpaperSize.height, winSize.width / wallpaperSize.width));
             wallpaperSprite->setScaleY(std::max(winSize.height / wallpaperSize.height, winSize.width / wallpaperSize.width));
-            wallpaperSprite->setZOrder(-5); 
-            this->addChild(wallpaperSprite); 
             break;
 
         case 2:
@@ -31,8 +29,6 @@ class $modify(MenuLayer) {
             wallpaperSprite->setPosition({ winSize.width / 2, winSize.height / 2 });
             wallpaperSprite->setScaleX(std::min(winSize.height / wallpaperSize.height, winSize.width / wallpaperSize.width));
             wallpaperSprite->setScaleY(std::min(winSize.height / wallpaperSize.height, winSize.width / wallpaperSize.width));
-            wallpaperSprite->setZOrder(-5); 
-            this->addChild(wallpaperSprite); 
             break;
 
         case 3:
@@ -41,17 +37,16 @@ class $modify(MenuLayer) {
             wallpaperSprite->setPosition({ 0, 0 });
             wallpaperSprite->setScaleX(winSize.width / wallpaperSize.width); 
             wallpaperSprite->setScaleY(winSize.height / wallpaperSize.height);
-            wallpaperSprite->setZOrder(-5);
-            this->addChild(wallpaperSprite);
             break;
 
         case 4:
             // center
             wallpaperSprite->setPosition({ winSize.width / 2, winSize.height / 2 });
-            wallpaperSprite->setZOrder(-5);
-            this->addChild(wallpaperSprite);
             break;
         }
+        wallpaperSprite->setZOrder(-5);
+        this->addChild(wallpaperSprite);
+        wallpaperSprite->setID("main-menu-bg");
 
         return true;
     }
