@@ -18,13 +18,13 @@ or "[GD Installation folder]/geode/unzipped/iristraa.mainmenuwallpaper/resources
 
 ## How to set your own wallpaper
 
-### 1. Textureldr installed (HIGHLY RECOMMENDED WAY)
+### 1. Texture Loader installed (HIGHLY RECOMMENDED WAY)
 
  - Make a folder called "iristraa.mainmenuwallpaper" inside one of your enabled texture packs
  - Add your own "wallpaper.png" file - corresponding to your texture quality
  - Done :)
 
-### 2. No Textureldr
+### 2. No Texture Loader
  - Go to "[GD Installation folder]/geode/unzipped/iristraa.mainmenuwallpaper/resources/iristraa.mainmenuwallpaper"
  - Replace the "wallpaper.png" file corresponding to your texture quality
  - Done :)
