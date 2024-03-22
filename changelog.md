@@ -1,3 +1,7 @@
+# v1.1.0
+ * Added Android support
+ * Updated mod icon
+
 # v1.0.3
 
  * Fixed typos in Markdown files
