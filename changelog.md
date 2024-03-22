@@ -1,6 +1,7 @@
 # v1.1.0
  * Added Android support
  * Updated mod icon
+ * New repo link
 
 # v1.0.3
 
