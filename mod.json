@@ -6,6 +6,7 @@
 	"name": "MainMenuWallpaper",
 	"developer": "iristraa",
 	"description": "Sets a wallpaper for MenuLayer.",
+	"repository": "https://github.com/iristraa/MainMenuWallpaper",
 	"resources": {
 		"sprites": [
 			"resources/wallpaper.png"
